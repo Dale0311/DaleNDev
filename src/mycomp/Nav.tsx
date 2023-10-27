@@ -10,7 +10,7 @@ import { FaBars } from "react-icons/fa6";
 
 function Nav() {
   return (
-    <nav className="fixed w-full px-4 sm:px-0 py-4 drop-shadow-md  bg-white">
+    <nav className="fixed w-full px-4 sm:px-0 py-4 drop-shadow-md  bg-white z-50">
       <div className="container  flex justify-between items-center">
         <a className="logo font-extrabold text-2xl hidden sm:inline">
           Dale N Dev
