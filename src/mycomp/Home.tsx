@@ -5,7 +5,7 @@ import { FiGithub } from "react-icons/fi";
 function Home() {
   return (
     <div className="bg-[#F9F9F9] min-h-screen flex items-center">
-      <div className="container flex flex-col md:flex-row justify-center items-center">
+      <div className="container flex flex-col md:flex-row justify-center sm:p-20 items-center">
         <div className="hero text-lg order-last md:order-first">
           <div className="space-y-4 flex flex-col justify-center mt-4">
             <h1 className="font-bold text-2xl  md:text-6xl text-center md:text-left">

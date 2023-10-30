@@ -2,7 +2,7 @@ import { FiMail } from "react-icons/fi";
 import { GrLocation } from "react-icons/gr";
 function Contact() {
   return (
-    <div className="container flex flex-col justify-center py-8 sm:py-20 space-y-8">
+    <div className="container flex flex-col justify-center py-8 sm:p-20 space-y-8">
       <div>
         <p className="text-xl font-semibold text-[#6C63FF]">Contact</p>
         <h1 className="text-lg sm:text-2xl font-semibold">
