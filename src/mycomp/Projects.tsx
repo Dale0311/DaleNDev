@@ -4,9 +4,9 @@ import { HiOutlineExternalLink } from "react-icons/hi";
 function Projects() {
   return (
     <div className="bg-[#F9F9F9]">
-      <div className="container flex flex-col items-center justify-center p-4 sm:p-20 space-y-4">
-        <p className="text-lg font-semibold text-[#6C63FF]">Projects</p>
-        <div className=" md:w-4/5 bg-white flex flex-col space-y-4 lg:flex-row p-4 sm:p-8 shadow-md rounded-lg">
+      <div className="container flex flex-col justify-center p-4 sm:p-20 space-y-4">
+        <p className="text-xl font-semibold text-[#6C63FF]">Projects</p>
+        <div className=" bg-white flex flex-col space-y-4 lg:flex-row p-4 sm:p-8 shadow-md rounded-lg">
           <div>
             <img src={projectOneSs} alt="First project screenshot" />
           </div>
@@ -37,14 +37,14 @@ function Projects() {
               <a
                 target="_blank"
                 href="https://github.com/Dale0311/DaleyFootWear"
-                className="flex items-center gap-2"
+                className="flex items-center gap-2 hover:text-[#6C63FF]"
               >
                 <p>Code</p> <FiGithub />
               </a>
               <a
                 target="_blank"
                 href="https://cheerful-cactus-ec721d.netlify.app/"
-                className="flex items-center gap-2"
+                className="flex items-center gap-2 hover:text-[#6C63FF]"
               >
                 <p>Live Demo</p> <HiOutlineExternalLink />
               </a>

@@ -8,7 +8,7 @@ function About() {
         <FaReact className="absolute bg-white h-20 w-20 sm:h-32 sm:w-32 -top-4 -right-10 p-4 rounded-full" />
       </div>
       <div className="space-y-4">
-        <p className="text-lg font-semibold text-[#6C63FF]">About me</p>
+        <p className="text-xl font-semibold text-[#6C63FF]">About me</p>
         <h2 className="text-xl sm:text-2xl font-bold">
           A dedicated Front-end Developer based in Tarlac, Philippines
         </h2>
