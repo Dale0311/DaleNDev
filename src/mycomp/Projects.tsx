@@ -3,15 +3,18 @@ import { FiGithub } from "react-icons/fi";
 import { HiOutlineExternalLink } from "react-icons/hi";
 function Projects() {
   return (
-    <div className="bg-[#F9F9F9] h-screen">
+    <div className="bg-[#F9F9F9]">
       <div className="container flex flex-col items-center justify-center p-4 sm:p-20 space-y-4">
-        <p className="text-lg font-semibold text-[#6C63FF]">Portfolio</p>
+        <p className="text-lg font-semibold text-[#6C63FF]">Projects</p>
         <div className=" md:w-4/5 bg-white flex flex-col space-y-4 lg:flex-row p-4 sm:p-8 shadow-md rounded-lg">
           <div>
             <img src={projectOneSs} alt="First project screenshot" />
           </div>
           <div className="space-y-4">
-            <h1 className="text-xl sm:text-2xl font-bold">Daley Footwear</h1>
+            <h1 className="text-xl sm:text-2xl font-bold">
+              Daley Footwear{" "}
+              <span className="text-lg font-semibold">(Oct 2023)</span>
+            </h1>
             <p className="text-sm sm:text-base text-gray-500">
               Daley Footwear is an e-commerce platform that enables users to
               browse, apply filters, and search for specific products. The
