@@ -37,14 +37,14 @@ function Projects() {
               <a
                 target="_blank"
                 href="https://github.com/Dale0311/DaleyFootWear"
-                className="flex items-center gap-2 hover:text-[#6C63FF]"
+                className="flex items-center gap-2"
               >
                 <p>Code</p> <FiGithub />
               </a>
               <a
                 target="_blank"
                 href="https://cheerful-cactus-ec721d.netlify.app/"
-                className="flex items-center gap-2 hover:text-[#6C63FF]"
+                className="flex items-center gap-2"
               >
                 <p>Live Demo</p> <HiOutlineExternalLink />
               </a>

@@ -3,9 +3,10 @@ import Home from "@/mycomp/Home";
 import About from "@/mycomp/About";
 import Projects from "@/mycomp/Projects";
 import Contact from "./mycomp/Contact";
+import Footer from "./mycomp/Footer";
 function App() {
   return (
-    <div className="flex flex-col">
+    <div>
       <Nav />
       <div>
         <Home />
@@ -13,6 +14,7 @@ function App() {
         <Projects />
         <Contact />
       </div>
+      <Footer />
     </div>
   );
 }

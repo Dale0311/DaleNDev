@@ -1,18 +1,17 @@
 import { FiMail } from "react-icons/fi";
-import { Separator } from "@/components/ui/separator";
 import { GrLocation } from "react-icons/gr";
 function Contact() {
   return (
-    <div className="">
-      <div className="container flex flex-col  justify-center p-4 sm:p-20 space-y-8">
-        <div>
-          <p className="text-xl font-semibold text-[#6C63FF]">Contact</p>
-          <h1 className="text-lg sm:text-2xl font-semibold">
-            Reach out to me via email to discuss collaborations, opportunities,
-            or just to say hello👋 !
-          </h1>
-        </div>
-        <div className="h-10 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 ">
+    <div className="container flex flex-col justify-center py-8 sm:py-20 space-y-8">
+      <div>
+        <p className="text-xl font-semibold text-[#6C63FF]">Contact</p>
+        <h1 className="text-lg sm:text-2xl font-semibold">
+          Reach out to me via email to discuss collaborations, opportunities, or
+          just to say hello👋 !
+        </h1>
+      </div>
+      <div>
+        <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 ">
           <div className="flex flex-col text-center sm:text-left sm:flex-row items-center sm:space-x-2">
             <div className="p-4 rounded-full shadow-md text-2xl w-fit border-2 border-[#6C63FF]">
               <FiMail />
@@ -22,7 +21,6 @@ function Contact() {
               <p className="text-gray-500 text-sm">mrdalecabarle@gmail.com</p>
             </div>
           </div>
-          <Separator orientation="vertical" className="hidden sm:inline" />
           <div className="flex flex-col text-center sm:text-left sm:flex-row items-center sm:space-x-2">
             <div className="p-4 rounded-full shadow-md text-2xl w-fit border-2 border-[#6C63FF]">
               <GrLocation />
