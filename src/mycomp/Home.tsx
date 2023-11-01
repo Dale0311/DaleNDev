@@ -1,4 +1,4 @@
-import me from "@/assets/imgs/me.png";
+import me from "@/assets/imgs/mee.jpg";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";
 
